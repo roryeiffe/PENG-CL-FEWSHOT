@@ -7,8 +7,8 @@ import unittest
 
 from langchain_core.outputs import LLMResult
 
-from utilities.llm_testing_util import llm_connection_check, llm_wakeup, classify_relevancy
-from main.lab import llm
+from src.utilities.llm_testing_util import llm_connection_check, llm_wakeup
+from src.main.lab import llm
 
 
 class TestLLMResponse(unittest.TestCase):
