@@ -22,7 +22,7 @@ TODO: Change the prompt below to allow for the generation of output as described
 You should provide the LLM with a few examples so that the output is correctly 
 formatted.
 """
-prompt = ""
+prompt = "When given a prompt in the format of word1, word2, the AI should output the format 'the word1 is word2'. For example, if given 'red, car', the AI should output 'the car is red'."
 
 """
 There is no need to change the below function. It will properly use the prompt &
